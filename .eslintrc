@@ -3,7 +3,6 @@
   "extends": "airbnb",
   "env": {
     "browser": true,
-    "mocha": true,
     "node": true
   },
   "rules": {
@@ -23,11 +22,15 @@
     "react/jsx-no-bind": "off",
     "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
     "react/prefer-stateless-function": "off",
-    "flowtype-errors/show-errors": 2
+    "class-methods-use-this": 0,
+    "no-param-reassign": 0,
+    "no-plusplus": 0,
+    "react/prop-types": 0,
+    "max-len": 0,
+    "curly": 0,
+    "prefer-template": 0
   },
   "plugins": [
-    "flowtype",
-    "flowtype-errors",
     "import",
     "promise",
     "compat",
